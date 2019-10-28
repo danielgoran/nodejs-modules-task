@@ -18,6 +18,17 @@ function max(elements) {
     console.log('Max: ' + el);
 }
 
+function min(elements) {
+    let el = elements[0];
+    for(let i = 1; i < elements.length; i++) {
+        if(elements[i] < el) {
+            el = elements[i];
+        }
+    }
+    console.log('Min: ' + el);
+}
+
 module.exports.PI = PI;
 module.exports.sum = sum;
 module.exports.findMax = max;
+module.exports.findMin = min;
