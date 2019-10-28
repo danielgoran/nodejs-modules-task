@@ -8,5 +8,16 @@ function sum(elements) {
     console.log('Sum: ' + total);
 }
 
+function max(elements) {
+    let el = elements[0];
+    for(let i = 1; i < elements.length; i++) {
+        if(elements[i] > el) {
+            el = elements[i];
+        }
+    }
+    console.log('Max: ' + el);
+}
+
 module.exports.PI = PI;
 module.exports.sum = sum;
+module.exports.findMax = max;

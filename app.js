@@ -1,5 +1,7 @@
 let math = require('./math');
 
-console.log(math.PI);
+// console.log(math.PI);
 
-math.sum([math.PI, 10, 8]);
+// math.sum([math.PI, 10, 8]);
+
+math.findMax([math.PI, 10, 8]);
