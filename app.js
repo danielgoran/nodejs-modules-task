@@ -1,3 +1,5 @@
 let math = require('./math');
 
 console.log(math.PI);
+
+math.sum([math.PI, 10, 8]);
